@@ -1,0 +1,29 @@
+# AI Hand Gesture Mouse Controller - Configuration (Phase 1)
+
+camera:
+  index: 0
+  width: 1280
+  height: 720
+  fps: 30
+
+detection:
+  max_num_hands: 2
+  min_detection_confidence: 0.7
+  min_tracking_confidence: 0.5
+  model_complexity: 1
+
+visualization:
+  app_title: "AI Hand Gesture System (Phase 1: Detection & Tracking)"
+  show_fps: true
+  show_landmarks: true
+  show_connections: true
+  show_hand_status: true
+  show_event_history: true
+  event_history_length: 5
+
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  log_file: "app.log"
+  console_output: true
+
